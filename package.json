@@ -1,0 +1,33 @@
+{
+  "name": "sails-generate-foundation",
+  "version": "1.0.5",
+  "description": "Generates grunt tasks to include foundation 6 into your sails app asset pipeline",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "foundation",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "balderdashy",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x",
+  	"merge-defaults": ">=0.1.0",
+	"rimraf": ">=2.5.1"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "foundation",
+    "behavior": "overrides `sails generate foundation`",
+    "sailsVersion": "~0.10.0"
+  }
+}
